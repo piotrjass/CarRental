@@ -1,0 +1,6 @@
+@VaricoCarRental_HostAddress = http://localhost:5148
+
+GET {{VaricoCarRental_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
