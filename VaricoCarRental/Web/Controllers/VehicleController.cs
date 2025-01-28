@@ -1,4 +1,5 @@
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using VaricoCarRental.Commands;
 using VaricoCarRental.Queries;
@@ -108,6 +109,7 @@ namespace VaricoCarRental.Controllers;
         /// </summary>
         /// <param name="id">The ID of the vehicle to delete</param>
         /// <returns>ActionResult</returns>
+        [Authorize]
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> DeleteVehicle(Guid id)
         {

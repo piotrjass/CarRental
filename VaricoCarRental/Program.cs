@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VaricoCarRental;
 using VaricoCarRental.IRepositories;
+using VaricoCarRental.Middlewares;
 using VaricoCarRental.Models;
 using VaricoCarRental.Repositories;
 
@@ -48,8 +49,7 @@ builder.Services.AddCors(options =>
 
 
 var app = builder.Build();
-
-// Middleware i konfiguracja aplikacji
+app.UseMiddleware<ExceptionMiddleware>();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -66,7 +66,6 @@ app.MapGet("users/me", async (ClaimsPrincipal claims, ApplicationDbContext conte
 app.UseHttpsRedirection();
 
 // app.UseAuthorization();
-
 app.MapControllers();
 app.MapIdentityApi<User>();
 
