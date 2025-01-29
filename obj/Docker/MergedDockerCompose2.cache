@@ -1,0 +1,64 @@
+name: dockercompose3970297652434425266
+services:
+  Varico.database:
+    container_name: products.database
+    environment:
+      POSTGRES_DB: Varico
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\gofrf\Desktop\VaricoCarRental\.containers\Inno-db
+        target: /var/lib/postgresql/data
+        bind:
+          create_host_path: true
+  varicocarrental:
+    build:
+      context: C:\Users\gofrf\Desktop\VaricoCarRental
+      dockerfile: VaricoCarRental/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: varicocarrental
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5000
+        published: "5000"
+        protocol: tcp
+      - mode: ingress
+        target: 5001
+        published: "5001"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\gofrf\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\gofrf\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose3970297652434425266_default

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rz9aaATFJb4=",
+  "dgSpecHash": "iK9a7NKQVOvvorjdh1r8kLW+Ic4LCgAqxBNIOuojBI9/bqY2ZSiq4js4qpfyEqQTvgEzsWVQkaHvBwm4BAEiRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\gofrf\\Desktop\\VaricoCarRental\\VaricoCarRental\\VaricoCarRental.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\gofrf\\.nuget\\packages\\microsoft.extensions.options\\9.0.1\\microsoft.extensions.options.9.0.1.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\gofrf\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\npgsql\\9.0.2\\npgsql.9.0.2.nupkg.sha512",

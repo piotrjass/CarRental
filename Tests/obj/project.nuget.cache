@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q//YiH8kpq4=",
+  "dgSpecHash": "HThTxK0KdWTNDfptkaknP5kkdaOwiSsbzEa4ysPqQqVkOuyvc79Su/bR4VdUUYpUfPQfiG9okt+QXlOSZ8mzxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gofrf\\Desktop\\VaricoCarRental\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\gofrf\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.8.0\\microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\microsoft.testplatform.testhost\\17.8.0\\microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
+    "C:\\Users\\gofrf\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",
     "C:\\Users\\gofrf\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",

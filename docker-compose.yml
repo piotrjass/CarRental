@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  varicocarrental:
+    image: ${DOCKER_REGISTRY-}varicocarrental
+    build:
+      context: .
+      dockerfile: VaricoCarRental/Dockerfile
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+
+  Varico.database:
+    image: postgres:latest
+    container_name: varico.database
+    environment:
+      - POSTGRES_DB=Varico
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin
+    volumes:
+      - ./.containers/Inno-db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+

@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VaricoCarRental", "VaricoCarRental\VaricoCarRental.csproj", "{238B2AA9-423E-4EFB-80D8-08604D273EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{1F41A2D7-FBD4-4F8A-96BD-D74F5767145B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{1F41A2D7-FBD4-4F8A-96BD-D74F5767145B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{068A7B9C-785C-44E9-BF0A-ED821927BEB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1F41A2D7-FBD4-4F8A-96BD-D74F5767145B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F41A2D7-FBD4-4F8A-96BD-D74F5767145B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F41A2D7-FBD4-4F8A-96BD-D74F5767145B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068A7B9C-785C-44E9-BF0A-ED821927BEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068A7B9C-785C-44E9-BF0A-ED821927BEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068A7B9C-785C-44E9-BF0A-ED821927BEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068A7B9C-785C-44E9-BF0A-ED821927BEB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

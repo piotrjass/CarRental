@@ -13,7 +13,6 @@
         "packagesPath": "C:\\Users\\gofrf\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gofrf\\Desktop\\VaricoCarRental\\Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\gofrf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -104,7 +103,6 @@
         "packagesPath": "C:\\Users\\gofrf\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gofrf\\Desktop\\VaricoCarRental\\VaricoCarRental\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\gofrf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -174,6 +172,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
             },
             "Moq": {
               "target": "Package",

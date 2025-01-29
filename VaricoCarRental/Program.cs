@@ -7,6 +7,7 @@ using VaricoCarRental.IRepositories;
 using VaricoCarRental.Middlewares;
 using VaricoCarRental.Models;
 using VaricoCarRental.Repositories;
+using VaricoCarRental.StartupExtensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -54,6 +55,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ApplyMigrations();
 }
 app.UseCors("AllowLocalhost");
 app.MapGet("users/me", async (ClaimsPrincipal claims, ApplicationDbContext context) =>
