@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VaricoCarRental")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24a2d48b54141f58015ecec4fc3258bc56aa5dd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a805f2247c3196f0edadcfdc7478fa47f06a2d78")]
 [assembly: System.Reflection.AssemblyProductAttribute("VaricoCarRental")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VaricoCarRental")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
